@@ -7,12 +7,20 @@ public class Course {
 	private int Fee;
 	private String CourseDescription;
 	
+	
+
+    
+
+	
 	public Course(int courseId, String courseName, int fee, String courseDescription) {
-		super();
-		CourseId = courseId;
-		CourseName = courseName;
-		Fee = fee;
-		CourseDescription = courseDescription;
+		this.CourseId = courseId;
+		this.CourseName = courseName;
+		this.Fee = fee;
+		this.CourseDescription = courseDescription;
+	}
+
+	public Course() {
+		// TODO Auto-generated constructor stub
 	}
 
 	public int getCourseId() {
