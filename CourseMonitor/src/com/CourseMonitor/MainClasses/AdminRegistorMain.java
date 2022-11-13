@@ -26,8 +26,10 @@ public class AdminRegistorMain {
     	DaoInterface da = new DaoImplement();
     	
     	try {
+    		
 			String result = da.RegistorAdmin(ad);
 			System.out.println(result);
+			
 		} catch (AdminException e) {
 			
 			e.printStackTrace();

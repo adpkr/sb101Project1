@@ -14,12 +14,20 @@ public class Batch {
 			String duration) {
 		super();
 		BatchId = batchId;
-		CourseId = courseId;
-		FacultyId = facultyId;
-		NumberOfStudent = numberOfStudent;
-		BatchStartDate = batchStartDate;
-		Duration = duration;
+		this.CourseId = courseId;
+		this.FacultyId = facultyId;
+		this.NumberOfStudent = numberOfStudent;
+		this.BatchStartDate = batchStartDate;
+		this.Duration = duration;
 	}
+
+
+	public Batch() {
+		// TODO Auto-generated constructor stub
+	}
+
+
+	
 
 
 	public int getBatchId() {

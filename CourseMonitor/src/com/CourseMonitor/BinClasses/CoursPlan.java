@@ -19,6 +19,11 @@ public class CoursPlan {
 	}
 
 
+	public CoursPlan() {
+		// TODO Auto-generated constructor stub
+	}
+
+
 	public int getPlanId() {
 		return PlanId;
 	}

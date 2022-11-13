@@ -24,6 +24,11 @@ public class Faculty {
 	}
 
 
+	public Faculty() {
+		// TODO Auto-generated constructor stub
+	}
+
+
 	public int getFacultyId() {
 		return FacultyId;
 	}

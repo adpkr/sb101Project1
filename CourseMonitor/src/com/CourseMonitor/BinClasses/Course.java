@@ -23,6 +23,10 @@ public class Course {
 		// TODO Auto-generated constructor stub
 	}
 
+	public Course(String cn, int cf, String du) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public int getCourseId() {
 		return CourseId;
 	}
